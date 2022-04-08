@@ -863,13 +863,13 @@ body {
   transform: translateY(14px);
 }
 
-.open {
+/* .open {
   transform: rotate(90deg);
   transform: translateY(0px);
-}
+} */
 
 .open .hamburger-top {
-  transform: rotate(45deg) translateY(6px) translate(6px);
+  transform: rotate(45deg) translateY(6px) translateX(6px);
 }
 
 .open .hamburger-middle {
@@ -877,7 +877,7 @@ body {
 }
 
 .open .hamburger-bottom {
-  transform: rotate(-45deg) translateY(6px) translate(-6px);
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
 }
 
 .hover\:bg-brightRedLight:hover {

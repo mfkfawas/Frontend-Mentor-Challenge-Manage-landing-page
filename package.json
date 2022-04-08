@@ -4,8 +4,8 @@
   "description": "![Design preview for the Manage landing page coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
-    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
   "keywords": [],
   "author": "",
